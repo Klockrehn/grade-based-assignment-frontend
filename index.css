@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: rgba(54, 54, 54, 0.555)
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block; 
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgba(54, 54, 54, 0.555)
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#searchForm input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+#searchForm button {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#searchForm button:hover {
+    color: rgba(54, 54, 54, 0.555)
+}
+
+
+#cocktailList {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#cocktailList li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: color 0.3s;
+    cursor: pointer;
+    
+}
+
+#cocktailList li:hover {
+    color: rgba(54, 54, 54, 0.555)
+}
+
+#cocktailList li.no-results {
+    color: #999;
+    font-style: italic;
+}
