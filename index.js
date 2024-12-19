@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         content.innerHTML = `
             <h1>Welcome to Johan's Cocktail Wiki!</h1>
             <div id="random-cocktail">
-                <p>Laddar...</p>
+                <p>Loading...</p>
             </div>
             <button id="new-cocktail">Generate new cocktail</button>
         `;
